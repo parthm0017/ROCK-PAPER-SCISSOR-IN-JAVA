@@ -6,7 +6,7 @@ public class rockpaperscissor {
         int ran=r.nextInt(3);
         for(int i=1;i<=5;i++){
             System.out.println("0 For rock\n1 For paper\n2 For scissor");
-            System.out.println("Computer has generated its random number..Please Enter your Choice:-");
+            System.out.println("Computer has generated its random number... Please Enter your Choice:-");
             Scanner sc=new Scanner(System.in);
             int a=sc.nextInt(3);
             System.out.print("Player Move is:- ");
